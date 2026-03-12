@@ -88,27 +88,32 @@ git clone https://github.com/codetherapistpita-oss/happytoddlerskindergarten.git
 
 ---
 
-### 👨‍💻 Designed & Developed by
+### 👥 Contributors
 
 <table align="center">
   <tr>
-    <td align="center">
-      <img src="img/developer-peter.jpg" alt="Peter Gyagenda - Developer" width="120" style="border-radius: 50%;"/>
+    <td align="center" width="180">
+      <a href="https://github.com/codetherapistpita-oss">
+        <img src="img/developer-peter.jpg" alt="Peter Gyagenda" width="80" height="80" style="border-radius: 50%; object-fit: cover;"/>
+      </a>
       <br/><br/>
       <strong>Peter Gyagenda</strong>
       <br/>
-      <em>Code Therapist • Full Stack Developer</em>
+      <em>Design • Development • Implementation</em>
       <br/><br/>
-      <em>Passionate developer with a keen eye for design. Designed, developed & implemented this website.</em>
-      <br/><br/>
-      <a href="https://github.com/codetherapistpita-oss" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-      <a href="https://linkedin.com/in/code-therapist-1142243b5" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-      <a href="https://codetherapistpita-oss.github.io/codetherapist-portfolio/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-      <a href="https://x.com/1codetherapist" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-      <a href="https://youtube.com/@codetherapist-m5d" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+      <a href="https://github.com/codetherapistpita-oss" title="GitHub"><img src="https://avatars.githubusercontent.com/u/15075759?s=32" width="28" height="28" style="border-radius: 50%;"/></a>
+      <a href="https://youtube.com/@codetherapist-m5d" title="YouTube"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" height="28"/></a>
+      <a href="https://linkedin.com/in/code-therapist-1142243b5" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="28"/></a>
+      <a href="https://codetherapistpita-oss.github.io/codetherapist-portfolio/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=google-chrome&logoColor=white" height="28"/></a>
     </td>
   </tr>
 </table>
+
+**🎬 [Subscribe to my YouTube](https://youtube.com/@codetherapist-m5d)** — Code, tutorials & more!
+
+*Need avatar images? Use [UI Avatars](https://ui-avatars.com/) (initials) or [Pravatar](https://pravatar.cc/) (random photos) for free placeholder avatars.*
+
+---
 
 ---
 
