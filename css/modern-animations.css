@@ -1,0 +1,173 @@
+/* ============================================
+   Happy Toddlers - Modern Animations & Icons
+   ============================================ */
+
+/* ---- Smooth Easing Variables ---- */
+:root {
+    --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+    --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --ease-in-out-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* ---- Icon Animations ---- */
+@keyframes iconPulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.15); opacity: 0.9; }
+}
+
+@keyframes iconBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+@keyframes iconFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+}
+
+.facility-item .facility-icon i,
+.contact-icon-box i,
+.icon-modern i {
+    transition: transform 0.4s var(--ease-out-back);
+}
+
+.facility-item:hover .facility-icon i {
+    animation: iconBounce 0.6s var(--ease-out-back) 1;
+}
+
+/* ---- Enhanced Facility Cards ---- */
+.facility-item {
+    transition: transform 0.4s var(--ease-out-expo), box-shadow 0.4s var(--ease-out-expo);
+}
+
+.facility-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.facility-item .facility-icon {
+    transition: transform 0.4s var(--ease-out-back);
+}
+
+.facility-item:hover .facility-icon {
+    transform: scale(1.08);
+}
+
+/* ---- Modern Contact Icons ---- */
+.contact-icon-box,
+.text-center .bg-light.rounded-circle.d-inline-flex {
+    transition: all 0.4s var(--ease-out-expo);
+}
+
+.contact-icon-box:hover,
+.text-center .bg-light.rounded-circle.d-inline-flex:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon-box:hover i,
+.text-center .bg-light.rounded-circle.d-inline-flex:hover i {
+    animation: iconPulse 0.5s ease-out 1;
+}
+
+/* ---- Button Enhancements ---- */
+.btn-primary, .btn-dark {
+    transition: all 0.3s var(--ease-out-expo);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary:hover, .btn-dark:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(254, 93, 55, 0.35);
+}
+
+.btn-dark:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.btn-primary:active, .btn-dark:active {
+    transform: translateY(0);
+}
+
+/* ---- Nav Link Underline Animation ---- */
+.navbar .nav-link {
+    position: relative;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: width 0.3s var(--ease-out-expo), left 0.3s var(--ease-out-expo);
+}
+
+.navbar .nav-link:hover::after,
+.navbar .nav-link.active::after {
+    width: 80%;
+    left: 10%;
+}
+
+/* ---- Classes Card Hover ---- */
+.classes-item {
+    transition: all 0.4s var(--ease-out-expo);
+}
+
+.classes-item:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+}
+
+/* ---- Team Card Enhanced ---- */
+.team-item {
+    transition: all 0.4s var(--ease-out-expo);
+}
+
+.team-item:hover {
+    transform: scale(1.03);
+}
+
+.team-item .team-text {
+    transition: all 0.4s var(--ease-out-expo);
+}
+
+/* ---- Back to Top Button ---- */
+.back-to-top {
+    transition: all 0.3s var(--ease-out-expo);
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px) scale(1.1);
+}
+
+/* ---- Social Button Icons ---- */
+.btn-social {
+    transition: all 0.3s var(--ease-out-back);
+}
+
+.btn-social:hover {
+    transform: translateY(-4px) rotate(5deg);
+}
+
+/* ---- Form Focus Animation ---- */
+.form-control:focus {
+    transition: box-shadow 0.3s var(--ease-out-expo);
+}
+
+/* ---- Testimonial Card ---- */
+.testimonial-item {
+    transition: all 0.4s var(--ease-out-expo);
+}
+
+.testimonial-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+/* ---- Page Header Breadcrumb ---- */
+.breadcrumb-item a {
+    transition: color 0.2s ease;
+}
