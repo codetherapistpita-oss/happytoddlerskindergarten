@@ -76,26 +76,6 @@ git clone https://github.com/codetherapistpita-oss/happytoddlerskindergarten.git
 
 ---
 
-### 📁 Project Structure
-
-```
-happytoddlerskindergarten/
-├── 📄 index.html          # Homepage
-├── 📄 about.html          # About Us
-├── 📄 classes.html        # Our Classes
-├── 📄 contact.html        # Contact
-├── 📄 team.html           # Popular Teachers
-├── 📄 facility.html       # School Facilities
-├── 📄 appointment.html    # Enrollment
-├── 📂 css/                # Stylesheets
-├── 📂 js/                 # Scripts
-├── 📂 img/                # Images
-├── 📂 lib/                # Libraries (Owl, WOW, etc.)
-└── 📂 screenshots/        # README previews
-```
-
----
-
 <p align="center">
   <strong>© Happy Toddlers Kindergarten Konge — All Rights Reserved 2026</strong>
 </p>
