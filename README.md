@@ -6,8 +6,20 @@
 
 *Our Vision: To provide a strong foundation that stimulates early learning and child care experiences, promoting excellence in child growth and development.*
 
-[![Website](https://img.shields.io/badge/🌐_Live_Soon-Website-2ea043?style=for-the-badge)](https://github.com/codetherapistpita-oss/happytoddlerskindergarten)
+[![Live Website](https://img.shields.io/badge/🌐_View_Live_Site-2ea043?style=for-the-badge)](https://codetherapistpita-oss.github.io/happytoddlerskindergarten/)
 [![License](https://img.shields.io/badge/License-2026-blue?style=for-the-badge)](LICENSE)
+
+**👉 [View Live Site](https://codetherapistpita-oss.github.io/happytoddlerskindergarten/)** — See the website in action
+
+---
+
+### ⭐ Show Your Support
+
+If you find this project useful, please consider:
+- [**Starring**](https://github.com/codetherapistpita-oss/happytoddlerskindergarten) this repository ⭐
+- [**Following**](https://github.com/codetherapistpita-oss) [@codetherapistpita-oss](https://github.com/codetherapistpita-oss) on GitHub 👤
+
+*It means a lot and helps others discover this project!*
 
 ---
 

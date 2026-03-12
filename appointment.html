@@ -99,35 +99,36 @@
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="h-100 d-flex flex-column justify-content-center p-5">
                                 <h1 class="mb-4">Make Appointment</h1>
-                                <form>
+                                <form action="https://formspree.io/f/YOUR_APPOINTMENT_FORM_ID" method="POST">
+                                    <input type="hidden" name="_subject" value="Happy Toddlers - New Enrollment Appointment">
                                     <div class="row g-3">
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="gname" placeholder="Guardian Name">
+                                                <input type="text" class="form-control border-0" id="gname" name="guardian_name" placeholder="Guardian Name" required>
                                                 <label for="gname">Guardian Name</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="email" class="form-control border-0" id="gmail" placeholder="Guardian Email">
+                                                <input type="email" class="form-control border-0" id="gmail" name="guardian_email" placeholder="Guardian Email" required>
                                                 <label for="gmail">Guardian Email</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
+                                                <input type="text" class="form-control border-0" id="cname" name="child_name" placeholder="Child Name" required>
                                                 <label for="cname">Child Name</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="cage" placeholder="Child Age">
+                                                <input type="text" class="form-control border-0" id="cage" name="child_age" placeholder="Child Age" required>
                                                 <label for="cage">Child Age</label>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-floating">
-                                                <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                                <textarea class="form-control border-0" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea>
                                                 <label for="message">Message</label>
                                             </div>
                                         </div>
@@ -204,27 +205,6 @@
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container border-top border-secondary pt-4">
-                <div class="row align-items-center justify-content-center g-3 mb-4">
-                    <div class="col-12 text-center">
-                        <h6 class="text-white-50 mb-3">Designed & Developed by</h6>
-                        <div class="d-flex align-items-center justify-content-center flex-wrap gap-3">
-                            <img src="img/developer-peter.jpg" alt="Peter Gyagenda - Developer" class="rounded-circle" style="width: 56px; height: 56px; object-fit: cover;">
-                            <div class="text-start">
-                                <strong class="text-white">Peter Gyagenda</strong>
-                                <p class="mb-0 small text-white-50">Code Therapist • Full Stack Developer</p>
-                                <div class="d-flex gap-2 mt-1 justify-content-center justify-content-md-start">
-                                    <a href="https://github.com/codetherapistpita-oss" target="_blank" class="text-white-50" title="GitHub"><i class="fab fa-github"></i></a>
-                                    <a href="https://linkedin.com/in/code-therapist-1142243b5" target="_blank" class="text-white-50" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://codetherapistpita-oss.github.io/codetherapist-portfolio/" target="_blank" class="text-white-50" title="Portfolio"><i class="fa fa-globe"></i></a>
-                                    <a href="https://x.com/1codetherapist" target="_blank" class="text-white-50" title="X"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://youtube.com/@codetherapist-m5d" target="_blank" class="text-white-50" title="YouTube"><i class="fab fa-youtube"></i></a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
