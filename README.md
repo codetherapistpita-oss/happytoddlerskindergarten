@@ -76,6 +76,30 @@ git clone https://github.com/codetherapistpita-oss/happytoddlerskindergarten.git
 
 ---
 
+### 👨‍💻 Designed & Developed by
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="img/developer-peter.jpg" alt="Peter Gyagenda - Developer" width="120" style="border-radius: 50%;"/>
+      <br/><br/>
+      <strong>Peter Gyagenda</strong>
+      <br/>
+      <em>Code Therapist • Full Stack Developer</em>
+      <br/><br/>
+      <em>Passionate developer with a keen eye for design. Designed, developed & implemented this website.</em>
+      <br/><br/>
+      <a href="https://github.com/codetherapistpita-oss" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+      <a href="https://linkedin.com/in/code-therapist-1142243b5" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+      <a href="https://codetherapistpita-oss.github.io/codetherapist-portfolio/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+      <a href="https://x.com/1codetherapist" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+      <a href="https://youtube.com/@codetherapist-m5d" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+    </td>
+  </tr>
+</table>
+
+---
+
 <p align="center">
   <strong>© Happy Toddlers Kindergarten Konge — All Rights Reserved 2026</strong>
 </p>
